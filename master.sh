@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run -i -t --name ambari_master -v /tmp:/root/share -p 8080:8080 ambari_master /bin/bash
+#start ambari conteiner
+docker run -i -t --name master --net=test --hostname master -v /tmp:/root/share -p 8081:8080 master /bin/bash
