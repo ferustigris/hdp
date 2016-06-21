@@ -1,4 +1,4 @@
-# Automatic deploy Docker clater for hadoop
+# Automatic deploy Docker claster for hadoop
 
 INSTALLATION
 ------------
