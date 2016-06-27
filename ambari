@@ -1,0 +1,6 @@
+FROM centos:7
+RUN yum -y update
+ADD http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.1.0/ambari.repo /etc/yum.repos.d/ambari.repo
+RUN yum -y update
+RUN yum -y install ambari-server
+EXPOSE 1015
